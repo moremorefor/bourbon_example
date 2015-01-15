@@ -1,6 +1,10 @@
 # Bourbon example
-Bourbon, Neat, Bitters, Refills usage example.  
+[Bourbon](http://bourbon.io/), [Neat](http://neat.bourbon.io/), [Bitters](http://bitters.bourbon.io/), [Refills](http://refills.bourbon.io/) usage example.  
 This example is based on 「[Awesome CSS with Bourbon, Neat, Bitters & Refills!](https://www.youtube.com/playlist?list=PLfdtiltiRHWErI0VSxDCbeDyEJm_kVt3p)」 
+
+
+## Preview
+<img src="./preview/example.png" alt="example preview" width="90%" height="90%" />
 
 ## Getting Started
 #### Install gems
@@ -22,6 +26,11 @@ $ bitters install
 ```
 $ cd css
 $ sass --watch app.sass:app.css
+```
+
+#### Run
+```
+$ python -m http.server
 ```
 
 #### Debug settings

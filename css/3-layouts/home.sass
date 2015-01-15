@@ -1,14 +1,16 @@
-.boxes
-  +clearfix
-  +outer-container
+.home
+  .bullets
+    margin: 50px 0
+    +outer-container
 
-.box
-  background: tint(red, 40%)
-  margin: 20px
-  +size(100px)
-  float: left
-  +span-columns(3)
+  article
+    +outer-container
+    margin-bottom: 100px
 
-p
-  font-family: $helvetica
-  +outer-container
+    div
+      +span-columns(8)
+      +shift(2)
+
+  .grid-items-lines
+    +outer-container
+    margin-bottom: 100px
