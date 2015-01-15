@@ -10,16 +10,12 @@ $ gem install bourbon
 $ gem install neat
 ```
 
-#### Install borbon
-```
-$ cd css
-$ bourbon install
-```
-
-#### Install Neat
+#### Install Borbon, Neat, Bitters
 ```
 $ cd css/0-plugins
+$ bourbon install
 $ neat install
+$ bitters install
 ```
 
 #### Compile
