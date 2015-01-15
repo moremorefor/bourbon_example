@@ -7,6 +7,7 @@ This example is based on 「[Awesome CSS with Bourbon, Neat, Bitters & Refills!]
 ```
 $ gem install sass
 $ gem install bourbon
+$ gem install neat
 ```
 
 #### Install borbon
