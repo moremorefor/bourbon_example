@@ -1,11 +1,14 @@
 .boxes
   +clearfix
+  +outer-container
 
 .box
   background: tint(red, 40%)
   margin: 20px
   +size(100px)
   float: left
+  +span-columns(3)
 
 p
   font-family: $helvetica
+  +outer-container
