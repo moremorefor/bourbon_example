@@ -1,0 +1,35 @@
+### https://raw.github.com/github/gitignore/8bc0e535bbc450e329cc8714da5c74855e3e98ea/Global/OSX.gitignore
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+### https://raw.github.com/github/gitignore/8bc0e535bbc450e329cc8714da5c74855e3e98ea/sass.gitignore
+
+.sass-cache
+*.css.map
+
+
+# My definitions
+css/*css
+bourbon/
+
