@@ -12,6 +12,7 @@ This example is based on 「[Awesome CSS with Bourbon, Neat, Bitters & Refills!]
 $ gem install sass
 $ gem install bourbon
 $ gem install neat
+$ gem install bitters
 ```
 
 #### Install Borbon, Neat, Bitters
@@ -24,8 +25,7 @@ $ bitters install
 
 #### Compile
 ```
-$ cd css
-$ sass --watch app.sass:app.css
+$ sass --watch css/app.sass:css/app.css
 ```
 
 #### Run
